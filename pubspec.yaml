@@ -1,0 +1,74 @@
+name: teAyudo
+description: Una app Flutter para ataques de pánico.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.4 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  just_audio: ^0.9.40
+
+  # ⭐ NUEVO: necesario para DateRangePicker y textos del sistema
+  flutter_localizations:
+    sdk: flutter
+
+  # UI y estado
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.1
+
+  # Datos locales y persistencia
+  shared_preferences: ^2.3.2     # (solo para migración temporal)
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # Archivos, multimedia y utilidades
+  file_picker: ^8.3.7
+  path_provider: ^2.1.4
+  image_picker: ^1.1.2
+  open_filex: ^4.5.0
+  share_plus: ^10.0.2
+  url_launcher: ^6.3.0
+  uuid: ^4.4.0   # Necesario para generar IDs únicos en contactos
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.6
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icon/icon.png
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon/icon.png"
+  min_sdk_android: 21
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
