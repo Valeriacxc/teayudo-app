@@ -25,7 +25,7 @@ La aplicación permite al usuario acceder rápidamente a herramientas de regulac
 - Uso offline
 - Experiencia centrada en el usuario
 
-## Capturas de la aplicación
+## 📸 Capturas
 
 ### Pantalla principal
 ![Home](images/home.png)
@@ -33,8 +33,17 @@ La aplicación permite al usuario acceder rápidamente a herramientas de regulac
 ### Modo crisis
 ![Crisis](images/crisis.png)
 
-### Registro de emociones
-![Registro](images/registro.png)
+### Rutinas
+![Rutinas](images/rutinas.png)
+
+### Contactos
+![Contactos](images/contactos.png)
+
+### Caja de ayuda
+![Caja](images/caja_ayuda.png)
+
+### Bienestar
+![Bienestar](images/bienestar.png)****
 
 ## Autor
 Valeria Cofré
